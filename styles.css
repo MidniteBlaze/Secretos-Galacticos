@@ -1,6 +1,7 @@
 body {
-    color: #f9faf8;
+    color: #1f2937;
     margin: 0;
+    text-align: center;
 }
 
 header {
@@ -13,18 +14,23 @@ header {
 .header-logo {
     font-size: 18px;
     font-weight: 900;
-    color: #e5e7eb;
+    color: #f9faf8;
 }
 .hero {
+    color: #f9faf8;
     background-color: #1f2937;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 32px;
 }
 
 .hero-secondary {
     width: 400px;
     display: flex;
     flex-direction: column;
+    text-align: start;
     padding: 32px;
     flex-wrap: wrap;
 }
@@ -62,20 +68,56 @@ a {
     font-weight: 900;
 }
 
-.information-container {
-    color: #1f2937;
+.title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 60px;
+}
+
+.info {
+    max-width: 100px;
+}
+
+.info img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.blockquote {
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 62px;
 }
 
+.blockquote__text {
+    max-width: 500px;
+    text-align: start;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 0;
+}
 
+.blockquote__text--credit {
+    max-width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 325px;
+    margin-top: 0;
+}
 
-.box {
-    border: 3px solid #3882f6;
-    border-radius: 6px;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
+.blockquote__text--credit::before {
+    content: "\2014\0020"
 }
