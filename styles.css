@@ -121,3 +121,53 @@ a {
 .blockquote__text--credit::before {
     content: "\2014\0020"
 }
+
+.action {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.action-container {
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 80px;
+    padding: 20px 80px;
+}
+
+.action-text {
+    color: #e5e7eb;
+    font-size: 14px;
+    text-align: left;
+    line-height: 0;
+}
+
+.bold {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button-action {
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    background-color: #3882f6;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 12px;
+    padding: 28px;
+}
